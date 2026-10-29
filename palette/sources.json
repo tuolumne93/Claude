@@ -1,0 +1,15 @@
+{
+  "_about": "Signal source types. role: 'leading' = where colours show up first (forecasts, adult fashion, interiors); 'bridge' = kids fashion / nursery, which usually picks up leading colours before tableware does; 'market' = what children's tableware and feeding products sell now. weight = how much one signal of this type counts. Tune these to your own experience.",
+  "source_types": {
+    "forecast_agency":   {"role": "leading", "weight": 1.5, "examples": "WGSN, Coloro, Pantone, trade-fair trend forums (e.g. Playtime, Kind + Jugend), colour-of-the-year announcements"},
+    "adult_fashion":     {"role": "leading", "weight": 1.0, "examples": "runway reports, high-street new-in pages"},
+    "interiors":         {"role": "leading", "weight": 1.0, "examples": "Salone del Mobile, Maison&Objet, paint brands' colour of the year, homeware launches"},
+    "beauty_packaging":  {"role": "leading", "weight": 0.7, "examples": "cosmetics and lifestyle packaging launches"},
+    "social":            {"role": "leading", "weight": 0.8, "examples": "Pinterest Predicts, saved Instagram/TikTok nursery and kids' room posts"},
+    "kids_fashion":      {"role": "bridge",  "weight": 1.0, "examples": "kidswear new-in, kids runway, children's fashion trade shows"},
+    "nursery_interiors": {"role": "bridge",  "weight": 1.0, "examples": "nursery furniture, bedding and toy launches"},
+    "competitor_launch": {"role": "market",  "weight": 1.0, "examples": "new tableware/feeding SKUs and colourways from competitors"},
+    "retail_bestseller": {"role": "market",  "weight": 1.2, "examples": "best-seller lists for kids' tableware on retailer sites"},
+    "own_sales":         {"role": "market",  "weight": 1.5, "examples": "your own sell-through by colourway (enter one row per colourway per quarter with weight = units / 100)"}
+  }
+}

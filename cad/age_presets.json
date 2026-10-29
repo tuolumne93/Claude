@@ -1,0 +1,46 @@
+{
+  "_about": "Starting-point dimensions per age group, in mm. They are typical of products on the market and of general guidance on children's hand and mouth size. They are design starting points to refine through your own fit and user testing, not a standard. Edit freely; build.py and the OpenSCAD Customizer presets are generated from this file.",
+  "age_groups": {
+    "6-12m": {
+      "label": "6-12 months (first foods, parent-led + early self-feeding)",
+      "min_age_months": 6,
+      "plate": {"plate_diameter": 180, "plate_rim_height": 25, "plate_sections": 3, "plate_layout": "half_split", "scoop_lip": 4, "inner_fillet": 10, "suction_mount": true},
+      "bowl":  {"bowl_diameter": 115, "bowl_height": 50, "scoop_lip": 4, "inner_fillet": 14, "flare": 6, "suction_mount": true},
+      "cup":   {"cup_diameter": 58, "cup_height": 65, "cup_handles": 2, "cup_base": 8, "flare": 4, "scoop_lip": 0, "inner_fillet": 6, "suction_mount": false},
+      "spoon": {"spoon_bowl_length": 30, "spoon_bowl_width": 22, "spoon_bowl_depth": 4, "spoon_handle_length": 85, "spoon_grip_d": 18, "spoon_handle_rise": 6, "gag_guard": true, "gag_guard_d": 40}
+    },
+    "12-24m": {
+      "label": "12-24 months (self-feeding, palmar grasp)",
+      "min_age_months": 12,
+      "plate": {"plate_diameter": 200, "plate_rim_height": 25, "plate_sections": 3, "plate_layout": "half_split", "scoop_lip": 3, "inner_fillet": 9, "suction_mount": true},
+      "bowl":  {"bowl_diameter": 125, "bowl_height": 52, "scoop_lip": 3, "inner_fillet": 12, "flare": 7, "suction_mount": true},
+      "cup":   {"cup_diameter": 62, "cup_height": 72, "cup_handles": 2, "cup_base": 7, "flare": 4, "scoop_lip": 0, "inner_fillet": 6, "suction_mount": false},
+      "spoon": {"spoon_bowl_length": 35, "spoon_bowl_width": 26, "spoon_bowl_depth": 6, "spoon_handle_length": 85, "spoon_grip_d": 16, "spoon_handle_rise": 10, "gag_guard": true, "gag_guard_d": 40}
+    },
+    "2-3y": {
+      "label": "2-3 years (transition to tripod / digital grasp)",
+      "min_age_months": 24,
+      "plate": {"plate_diameter": 210, "plate_rim_height": 22, "plate_sections": 4, "plate_layout": "half_split", "scoop_lip": 2, "inner_fillet": 8, "suction_mount": true},
+      "bowl":  {"bowl_diameter": 135, "bowl_height": 55, "scoop_lip": 2, "inner_fillet": 10, "flare": 8, "suction_mount": false},
+      "cup":   {"cup_diameter": 66, "cup_height": 80, "cup_handles": 1, "cup_base": 6, "flare": 5, "scoop_lip": 0, "inner_fillet": 5, "suction_mount": false},
+      "spoon": {"spoon_bowl_length": 40, "spoon_bowl_width": 28, "spoon_bowl_depth": 7, "spoon_handle_length": 95, "spoon_grip_d": 13, "spoon_handle_rise": 12, "gag_guard": false}
+    },
+    "3-5y": {
+      "label": "3-5 years (tripod grasp, more independent)",
+      "min_age_months": 36,
+      "plate": {"plate_diameter": 220, "plate_rim_height": 18, "plate_sections": 4, "plate_layout": "radial", "scoop_lip": 0, "inner_fillet": 6, "suction_mount": false},
+      "bowl":  {"bowl_diameter": 145, "bowl_height": 58, "scoop_lip": 0, "inner_fillet": 8, "flare": 10, "suction_mount": false},
+      "cup":   {"cup_diameter": 70, "cup_height": 88, "cup_handles": 0, "cup_base": 5, "flare": 6, "scoop_lip": 0, "inner_fillet": 4, "suction_mount": false},
+      "spoon": {"spoon_bowl_length": 44, "spoon_bowl_width": 31, "spoon_bowl_depth": 8, "spoon_handle_length": 110, "spoon_grip_d": 11, "spoon_handle_rise": 12, "gag_guard": false}
+    }
+  },
+  "materials_g_per_cm3": {
+    "silicone": 1.15,
+    "pp": 0.905,
+    "tritan": 1.18,
+    "stainless_steel": 7.9,
+    "pla_prototype": 1.24,
+    "petg_prototype": 1.27,
+    "tpu_prototype": 1.21
+  }
+}

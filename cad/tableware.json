@@ -1,0 +1,167 @@
+{
+  "fileFormatVersion": "1",
+  "parameterSets": {
+    "6-12m plate": {
+      "plate_diameter": "180",
+      "plate_rim_height": "25",
+      "plate_sections": "3",
+      "plate_layout": "half_split",
+      "scoop_lip": "4",
+      "inner_fillet": "10",
+      "suction_mount": "true",
+      "product": "plate"
+    },
+    "6-12m bowl": {
+      "bowl_diameter": "115",
+      "bowl_height": "50",
+      "scoop_lip": "4",
+      "inner_fillet": "14",
+      "flare": "6",
+      "suction_mount": "true",
+      "product": "bowl"
+    },
+    "6-12m cup": {
+      "cup_diameter": "58",
+      "cup_height": "65",
+      "cup_handles": "2",
+      "cup_base": "8",
+      "flare": "4",
+      "scoop_lip": "0",
+      "inner_fillet": "6",
+      "suction_mount": "false",
+      "product": "cup"
+    },
+    "6-12m spoon": {
+      "spoon_bowl_length": "30",
+      "spoon_bowl_width": "22",
+      "spoon_bowl_depth": "4",
+      "spoon_handle_length": "85",
+      "spoon_grip_d": "18",
+      "spoon_handle_rise": "6",
+      "gag_guard": "true",
+      "gag_guard_d": "40",
+      "product": "spoon"
+    },
+    "12-24m plate": {
+      "plate_diameter": "200",
+      "plate_rim_height": "25",
+      "plate_sections": "3",
+      "plate_layout": "half_split",
+      "scoop_lip": "3",
+      "inner_fillet": "9",
+      "suction_mount": "true",
+      "product": "plate"
+    },
+    "12-24m bowl": {
+      "bowl_diameter": "125",
+      "bowl_height": "52",
+      "scoop_lip": "3",
+      "inner_fillet": "12",
+      "flare": "7",
+      "suction_mount": "true",
+      "product": "bowl"
+    },
+    "12-24m cup": {
+      "cup_diameter": "62",
+      "cup_height": "72",
+      "cup_handles": "2",
+      "cup_base": "7",
+      "flare": "4",
+      "scoop_lip": "0",
+      "inner_fillet": "6",
+      "suction_mount": "false",
+      "product": "cup"
+    },
+    "12-24m spoon": {
+      "spoon_bowl_length": "35",
+      "spoon_bowl_width": "26",
+      "spoon_bowl_depth": "6",
+      "spoon_handle_length": "85",
+      "spoon_grip_d": "16",
+      "spoon_handle_rise": "10",
+      "gag_guard": "true",
+      "gag_guard_d": "40",
+      "product": "spoon"
+    },
+    "2-3y plate": {
+      "plate_diameter": "210",
+      "plate_rim_height": "22",
+      "plate_sections": "4",
+      "plate_layout": "half_split",
+      "scoop_lip": "2",
+      "inner_fillet": "8",
+      "suction_mount": "true",
+      "product": "plate"
+    },
+    "2-3y bowl": {
+      "bowl_diameter": "135",
+      "bowl_height": "55",
+      "scoop_lip": "2",
+      "inner_fillet": "10",
+      "flare": "8",
+      "suction_mount": "false",
+      "product": "bowl"
+    },
+    "2-3y cup": {
+      "cup_diameter": "66",
+      "cup_height": "80",
+      "cup_handles": "1",
+      "cup_base": "6",
+      "flare": "5",
+      "scoop_lip": "0",
+      "inner_fillet": "5",
+      "suction_mount": "false",
+      "product": "cup"
+    },
+    "2-3y spoon": {
+      "spoon_bowl_length": "40",
+      "spoon_bowl_width": "28",
+      "spoon_bowl_depth": "7",
+      "spoon_handle_length": "95",
+      "spoon_grip_d": "13",
+      "spoon_handle_rise": "12",
+      "gag_guard": "false",
+      "product": "spoon"
+    },
+    "3-5y plate": {
+      "plate_diameter": "220",
+      "plate_rim_height": "18",
+      "plate_sections": "4",
+      "plate_layout": "radial",
+      "scoop_lip": "0",
+      "inner_fillet": "6",
+      "suction_mount": "false",
+      "product": "plate"
+    },
+    "3-5y bowl": {
+      "bowl_diameter": "145",
+      "bowl_height": "58",
+      "scoop_lip": "0",
+      "inner_fillet": "8",
+      "flare": "10",
+      "suction_mount": "false",
+      "product": "bowl"
+    },
+    "3-5y cup": {
+      "cup_diameter": "70",
+      "cup_height": "88",
+      "cup_handles": "0",
+      "cup_base": "5",
+      "flare": "6",
+      "scoop_lip": "0",
+      "inner_fillet": "4",
+      "suction_mount": "false",
+      "product": "cup"
+    },
+    "3-5y spoon": {
+      "spoon_bowl_length": "44",
+      "spoon_bowl_width": "31",
+      "spoon_bowl_depth": "8",
+      "spoon_handle_length": "110",
+      "spoon_grip_d": "11",
+      "spoon_handle_rise": "12",
+      "gag_guard": "false",
+      "product": "spoon"
+    }
+  }
+}

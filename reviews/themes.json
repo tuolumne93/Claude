@@ -1,0 +1,74 @@
+{
+  "_about": "Complaint/praise themes for children's tableware reviews. Each pattern is a case-insensitive regular expression. Add your own themes or words freely.",
+  "themes": {
+    "suction_failure": {
+      "label": "Suction doesn't hold",
+      "patterns": ["suction (?:doesn'?t|does not|didn'?t|won'?t|never|stopped|fails?|failed|is useless|is weak)", "(?:pulls?|pulled|ripped|yanks?|yanked|peels?|peeled) (?:it )?(?:right )?off", "doesn'?t stick", "won'?t stick", "only sticks? to", "textured tray", "lost suction", "suction (?:is )?(?:too )?(?:weak|poor|terrible)"]
+    },
+    "suction_too_strong": {
+      "label": "Suction too hard for parents to release",
+      "patterns": ["(?:can'?t|cannot|hard to|impossible to) (?:get|pull|remove|release)[^.]{0,20}off", "release tab", "too strong"]
+    },
+    "mold_hygiene": {
+      "label": "Mould / trapped water / hygiene",
+      "patterns": ["mou?ld", "mildew", "black (?:spots|gunk|stuff)", "water (?:gets )?(?:trapped|stuck|inside)", "trap(?:s|ped)? (?:food|water|gunk)", "crevices?", "can'?t (?:get|reach) (?:inside|in there)"]
+    },
+    "staining_odor": {
+      "label": "Staining & odour retention",
+      "patterns": ["stain(?:s|ed|ing)?", "discolou?r", "turmeric|tomato sauce|carrot", "smells? (?:like|of) (?:soap|dish|food)", "retains? (?:smell|odou?r)", "soapy taste"]
+    },
+    "chemical_smell": {
+      "label": "Chemical smell or taste",
+      "patterns": ["chemical (?:smell|taste|odou?r)", "plastic(?:ky)? (?:smell|taste)", "smells? (?:weird|funny|toxic|strong) out of the box", "white residue|chalky"]
+    },
+    "breakage_durability": {
+      "label": "Breaks, cracks, tears",
+      "patterns": ["crack(?:s|ed)?", "broke", "broken", "snapp?ed", "tore|torn|rip(?:ped)?\\b", "chew(?:ed)? through", "bite marks|bit off|teeth marks", "fell apart", "chipped", "warp(?:ed|s)?"]
+    },
+    "dishwasher_microwave": {
+      "label": "Dishwasher / microwave problems",
+      "patterns": ["dishwasher", "microwave", "melt(?:ed|s)?", "got (?:too )?hot", "heat(?:s)? up"]
+    },
+    "spill_tip": {
+      "label": "Spills, leaks & tipping",
+      "patterns": ["spill", "leak", "tip(?:s|ped)? over", "knock(?:s|ed)? (?:it )?over", "topple", "dribbl", "splash"]
+    },
+    "size_capacity": {
+      "label": "Wrong size / capacity",
+      "patterns": ["too (?:small|big|large|shallow|deep|tiny|heavy)", "sections? (?:are|is) too", "barely (?:holds|fits)", "portion"]
+    },
+    "grip_handling": {
+      "label": "Hard for child to grip / use",
+      "patterns": ["hard (?:for (?:him|her|them|my \\w+) )?to (?:hold|grip|scoop|use)", "can'?t (?:hold|grip|scoop)", "handle (?:is )?(?:too )?(?:thick|thin|short|long|slippery)", "slippery", "food (?:slides|falls) off", "too heavy for", "won'?t scoop"]
+    },
+    "cleaning": {
+      "label": "Hard to clean",
+      "patterns": ["hard to clean", "difficult to clean", "pain to (?:clean|wash)", "lint", "attracts (?:dust|hair|lint)", "greasy film", "sticky (?:feel|residue|film)"]
+    },
+    "choking_safety": {
+      "label": "Safety / small parts concerns",
+      "patterns": ["chok(?:e|ing)", "gag(?:ged|ging)?", "came off in (?:his|her|their) mouth", "piece (?:came|broke) off", "sharp edge", "unsafe|dangerous|hazard"]
+    },
+    "color_print": {
+      "label": "Colour / print fades or peels",
+      "patterns": ["fade(?:s|d)?", "pe(?:el|eled|eling) off", "print (?:came|wore|rubbed) off", "colou?r (?:came|rubbed|wore) off", "dull(?:er)? after"]
+    },
+    "price_value": {
+      "label": "Price / value",
+      "patterns": ["overpriced", "too expensive", "not worth", "waste of money", "for the price", "cheaply made"]
+    },
+    "packaging_storage": {
+      "label": "Storage, lids, portability",
+      "patterns": ["lid (?:doesn'?t|won'?t|does not) (?:fit|close|stay)", "doesn'?t stack", "won'?t stack", "bulky", "travel", "diaper bag"]
+    },
+    "design_appeal": {
+      "label": "Looks / kid appeal (often praise)",
+      "patterns": ["cute", "adorable", "beautiful colou?r", "love(?:s)? the colou?r", "pretty", "boring", "ugly", "gender neutral", "aesthetic"]
+    }
+  },
+  "wish_patterns": [
+    "i wish[^.!?]*", "would (?:be|have been) (?:nice|great|better|perfect) if[^.!?]*", "if only[^.!?]*",
+    "should (?:have|make|come with|be)[^.!?]*", "needs? (?:a|an|to)[^.!?]*", "please make[^.!?]*",
+    "would love (?:a|an|if|to see)[^.!?]*", "only (?:complaint|downside|issue|problem) is[^.!?]*"
+  ]
+}

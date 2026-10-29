@@ -1,0 +1,21 @@
+{
+  "_about": "Approximate colours of common toddler foods, used to check that a plate/bowl colour doesn't camouflage food. Replace or extend with photos of your own test meals (extract_colors.py).",
+  "foods": {
+    "rice / yogurt": "#F4F1E8",
+    "mashed potato": "#EFE3C2",
+    "pasta": "#F1D58A",
+    "banana": "#F4E3A1",
+    "porridge / oatmeal": "#D9C6A2",
+    "chicken": "#E2C59A",
+    "carrot / sweet potato": "#E8863A",
+    "salmon": "#F08A6A",
+    "tomato sauce": "#B8331F",
+    "strawberry": "#D2343A",
+    "beetroot": "#8A1E3E",
+    "peas": "#8DB43A",
+    "broccoli / spinach": "#4F7A2B",
+    "avocado": "#B9C46A",
+    "blueberry": "#4A4E8C",
+    "beef / meatballs": "#7A4A35"
+  }
+}
